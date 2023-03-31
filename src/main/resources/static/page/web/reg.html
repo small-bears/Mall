@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/login.css">
+		<title>淡鱼校园二手平台</title>
+	</head>
+	<body>
+		<div class="content">
+		        <div class="form sign-in">
+		            <h2>淡鱼校园二手平台</h2>
+		            <label>
+		                <span>用户名</span>
+		                <input type="text" />
+		            </label>
+		            <label>
+		                <span>密码</span>
+		                <input type="password" />
+		            </label>
+		            <p class="forgot-pass"><a href="javascript:">忘记密码？</a></p>
+		            <button type="button" class="submit">登 录</button>
+		            <!-- <button type="button" class="fb-btn"> <span>游客</span> 帐号登录</button> -->
+		        </div>
+		        <div class="sub-cont">
+		            <div class="img">
+		                <div class="img__text m--up">
+		                    <h2>每样被遗弃的东西都有它的价值</h2>
+							<!-- <h2>发挥价值</h2> -->
+		                    <p>立即注册，让你手中的物品发挥更多价值！</p>
+		                </div>
+		                <div class="img__text m--in">
+		                    <h2>已有帐号？</h2>
+		                    <p>有帐号就登录吧ヽ(￣▽￣)ﾉ</p>
+		                </div>
+		                <div class="img__btn">
+		                    <span class="m--up">注 册</span>
+		                    <span class="m--in">登 录</span>
+		                </div>
+		            </div>
+		            <div class="form sign-up">
+		                <h2>立即注册</h2>
+		                <label>
+		                    <span>用户名</span>
+		                    <input type="text" />
+		                </label>
+						<label>
+						    <span>密码</span>
+						    <input type="password" />
+						</label>
+		                <label>
+		                    <span>确认密码</span>
+		                    <input type="password" />
+		                </label>
+		                <button type="button" class="submit">注 册</button>
+		                <!-- <button type="button" class="fb-btn">使用 <span>facebook</span> 帐号注册</button> -->
+		            </div>
+		        </div>
+		    </div>
+		
+		    <script src="js/reg/jquery-1.12.4.js"></script>
+			<script src="js/reg/login.js"></script>
+	</body>
+	
+	<script>
+	$('#login_btn').on('click', function(){
+		     var num=0;
+			 var str="";
+	     $("input[type$='text'],input[type$='password']").each(function(n){
+	          if($(this).val()=="")
+	          {
+	               
+				   layer.alert(str+=""+$(this).attr("name")+"不能为空！\r\n",{
+	                title: '提示框',				
+					icon:0,								
+	          }); 
+			    num++;
+	            return false;            
+	          } 
+			 });
+			  if(num>0){  return false;}	 	
+	          else{
+				  layer.alert('登录成功！',{
+	               title: '提示框',				
+				   icon:1,		
+				  });
+		          location.href="index.html";
+				   layer.close(index);	
+			  }		  		     						
+			
+		});
+	  $(document).ready(function(){
+		 $("input[type='text'],input[type='password']").blur(function(){
+	        var $el = $(this);
+	        var $parent = $el.parent();
+	        $parent.attr('class','frame_style').removeClass(' form_error');
+	        if($el.val()==''){
+	            $parent.attr('class','frame_style').addClass(' form_error');
+	        }
+	    });
+		$("input[type='text'],input[type='password']").focus(function(){		
+			var $el = $(this);
+	        var $parent = $el.parent();
+	        $parent.attr('class','frame_style').removeClass(' form_errors');
+	        if($el.val()==''){
+	            $parent.attr('class','frame_style').addClass(' form_errors');
+	        } else{
+				 $parent.attr('class','frame_style').removeClass(' form_errors');
+			}
+			});
+		  })
+	
+	</script>
+</html>
