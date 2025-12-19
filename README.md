@@ -1,44 +1,57 @@
-# Mall
-基于SpringBoot Vue网上商城系统
+
+### 联系方式（微信扫一扫）:
+<img width="444" height="560" alt="2fc79856-4bde-42f0-a5ea-83281867fbbe" src="https://github.com/user-attachments/assets/3eaeeaef-8fda-4c05-9f80-9e5361650c4a" />
+
+### 计算机毕设定制（直接点击链接）：https://www.yuque.com/techninja/code/xrpvpxbu3y8fa3ey?singleDoc#
+## 一、获取地址:
+
+#### 项目获取地址：https://www.666bear.com/12531.html
+
+**博主介绍：✌全网粉丝30W+,csdn特邀作者、Java领域优质创作者、csdn/掘金/哔哩哔哩/知乎/道客/小红书等平台优质作者，计算机毕设实战导师，目前专注于大学生项目实战开发,讲解,毕业答疑辅导✌工作室接计算机毕业设计程序开发、论文代写、代码讲解、出售成品源码等毕设服务，专业靠谱~**
+
+#### 作者QQ：3289948684 微信：bysj7626 (支持修改、 部署调试、 代做接毕业设计和课程设计)
+
+#### 接网站建设、小程序、H5、APP、各种系统、样式修改等
+
+#### 选题+开题报告+任务书+程序定制+安装调试+论文+答辩ppt 都可以做
+
+#### 有需求尽管甩过来！一条龙帮你安心过！
+
+#### 所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
+
 ## 一、 项目介绍
-基于SpringBoot Vue的网上商城系统
 
-角色：普通用户、管理员角色
+(协同过滤推荐算法+AI智能助手)基于SpringBoot的电商商品推荐包含看板、后台管理员模块、前台用户模块三部分，具体功能如下：
 
-整体功能包含用户登录注册，商品浏览，商品检索，添加商品，意见反馈，个人中心，地址管理，个人收藏管理，商品下单，订单管理，用户管理，统计图表，用户信息管理，地址管理，商品信息管理，商品分类管理，收藏商品管理，购物车管理，足迹管理，订单发货，退换货，订单处理等。
-## 二、视频演示
-    
-    
- <p style="text-align: center;"><strong><span class="ne-text">建议点击这个</span><a style="color: #ff0000;" href="https://www.bilibili.com/video/BV1am4y167Qe/?spm_id_from=333.999.0.0&vd_source=b5789de9f485ad6d0cfaeca1ad4b230c">“链接”</a>查看高清视频</strong></p>
-     
- <p style="text-align: center;"><strong><span class="ne-text">建议点击这个</span><a style="color: #ff0000;" href="https://www.666bear.com/2241.html">“链接”</a>可以获取代码</strong></p>
+1. 看板
+统计展示类功能：女装商家名称、女装销售描述、食品数据、女装标签统计、女装统计、美妆数据
+2. 后台管理员模块
+管理类功能：系统首页、个人中心、商家管理、用户类管理、商品分类管理、商品信息管理、女装信息管理、美妆信息管理、食品信息管理、系统管理、订单管理
+3. 前台用户模块
+使用类功能：首页、商品信息、女装信息、美妆信息、食品信息、公告信息、购物车、个人中心
+
+## 二、 视频演示（点击既可以看到）
+
+https://www.bilibili.com/video/BV1WqyYBGE8k/?spm_id_from=333.1387.search.video_card.click&vd_source=e51e8ec2fb03314ad9fa517492a2ce94
 
 ## 三、项目技术
-后台： SpringBoot+Mybatis
 
-前端：Vue + Vue Router + ELementUI + Axios
+后端： SpringBoot+Mybaits
+
+前端：Vue +ELementUI 
+
+
 
 ## 四、 运行环境
+
 开发语言：Java
 
 开发工具：IDEA，Eclipse,Myeclipse都可以。推荐IDEA
 
 JDK版本：1.8
 
-数据库: MySQL8版本以上
-
-Tomcat环境：Tomcat 7.x,8.x,9.x版本均可
+数据库: MySQL8.0版本以上
 
 项目管理：Maven
-## 五、运行截图（点图片可放大）
-
-
-  
-
-![1679928367620](https://user-images.githubusercontent.com/124327024/229001148-b8538262-bf76-4154-bda5-df9ee47c7a2b.jpg)
-![1679928423305](https://user-images.githubusercontent.com/124327024/229001154-414161b6-a3db-4d62-9694-86d606e21af0.jpg)
-![1679928448823](https://user-images.githubusercontent.com/124327024/229001156-76aa0be9-6d27-4004-8df0-cc29f6e7c6a4.jpg)
-![1679928466864](https://user-images.githubusercontent.com/124327024/229001158-c59e92e3-9144-461a-8315-131c4298df9b.jpg)
-![1679928518325](https://user-images.githubusercontent.com/124327024/229001361-4454d980-5059-40c7-9938-ba79fb42220c.jpg)
-
-
+## 五、 运行截图（点图片可放大）
+https://www.bilibili.com/video/BV1WqyYBGE8k/?spm_id_from=333.1387.search.video_card.click&vd_source=e51e8ec2fb03314ad9fa517492a2ce94
